@@ -1,0 +1,74 @@
+/*@media (min-width: 576px) { ... }*/
+
+/*@media (min-width: 768px) { ... }*/
+
+/*@media (min-width: 992px) { ... }*/
+
+/*@media (min-width: 1200px) { ... }*/
+
+body {
+    padding-top: 4.76354375rem;
+    background-color: #efefef;
+}
+/* fialova farba
+    background-color: #92278f; */
+
+
+/*    Footer links etc.
+-------------------------------------------------- */
+
+.list-unstyled {
+    line-height: normal;
+}
+
+.list-unstyled a {
+    font-size: small;
+}
+
+.list-unstyled a:link, a:visited {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.list-unstyled a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+h5.list-unstyled {
+    font-size: medium;
+    color: #444;
+    display: inline-block;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.75rem;
+}
+
+.list-contact{
+    font-size: small;
+    color: #6c757d;
+}
+.list-contact li{
+    padding: 0.125rem 0 0.125rem;
+}
+
+/* Footer span
+-------------------------------------------------- */
+
+footer span{
+    font-size: smaller;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: auto;
+    line-height: 3.75rem; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
